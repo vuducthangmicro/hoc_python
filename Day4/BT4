@@ -1,0 +1,7 @@
+#1
+movies_films=['phim a', 'phim b', 'phim c', 'phim d']
+#2
+phim_e=input("phim: ")
+#3
+movies_films=movies_films.append(phim_e)
+print(movies_films)
