@@ -16,4 +16,4 @@ set_a.remove('Jen')
 print(set_a)
 
 #e. Xóa tất cả các giá trị từ set_a
-set_a.clear
+set_a.clear()
