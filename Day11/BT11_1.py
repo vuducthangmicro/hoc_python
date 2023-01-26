@@ -3,34 +3,31 @@
 
 # add
 def my_add(x, y):
-    return (x + y)
+    return x + y
 
 
 print(my_add(6, 3))
 
+
 # subtract
-
-
 def my_subtract(a, b):
-    return (a-b)
+    return a - b
 
 
 print(my_subtract(6, 3))
 
 # divide
-
-
 def my_subtract(c, d):
-    return (c/d)
+    if d != 0:
+        return c / d
+    return "divide by zero"
 
 
 print(my_subtract(6, 3))
 
 # multiply
-
-
 def my_subtract(e, f):
-    return (e*f)
+    return e * f
 
 
 print(my_subtract(6, 3))
