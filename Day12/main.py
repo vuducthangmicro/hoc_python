@@ -20,7 +20,7 @@ prevs   = set()
 # Thêm một bộ phim mới
 def add_movie():
     # Nhập thông tin bộ phim
-    name         = input("Nhập vào tên bộ phim\t: ")
+    name         = input("Nhập vào tên bộ phim\t: ")    #\t là 1 Tab
     
     while name in prevs:
         print("Tên phim bị trùng! yêu cầu nhập lại!")
@@ -37,8 +37,8 @@ def add_movie():
     }
 
     # Thêm vào danh sách
-    movies.append(movie)
-    prevs.add(name)
+    movies.append(movie)    #append cho List
+    prevs.add(name)     #add cho Set
 
 
 # Hiển thị thông tin chi tiết

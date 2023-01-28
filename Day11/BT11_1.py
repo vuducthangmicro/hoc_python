@@ -17,17 +17,21 @@ def my_subtract(a, b):
 print(my_subtract(6, 3))
 
 # divide
-def my_subtract(c, d):
+
+
+def my_divide(c, d):
     if d != 0:
         return c / d
     return "divide by zero"
 
 
-print(my_subtract(6, 3))
+print(my_divide(6, 3))
 
 # multiply
-def my_subtract(e, f):
+
+
+def my_multiply(e, f):
     return e * f
 
 
-print(my_subtract(6, 3))
+print(my_multiply(6, 3))
